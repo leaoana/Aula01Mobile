@@ -13,18 +13,7 @@
 		DC8D595A2D8073F400C12618 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8D59592D8073F400C12618 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DC5D006E2D917CB6000F244B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DC5D006A2D917CB6000F244B /* AtividadeAula1.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DCDF89C32D7F05530038AC6D;
-			remoteInfo = AtividadeAula1;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DC5D006A2D917CB6000F244B /* AtividadeAula1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AtividadeAula1.xcodeproj; path = ../../../../AtividadeAula1/AtividadeAula1.xcodeproj; sourceTree = "<group>"; };
 		DC8D594F2D8073F300C12618 /* aula01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aula01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8D59522D8073F300C12618 /* aula01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aula01App.swift; sourceTree = "<group>"; };
 		DC8D59542D8073F300C12618 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,14 +32,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC5D006B2D917CB6000F244B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DC5D006F2D917CB6000F244B /* AtividadeAula1.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		DC8D59462D8073F300C12618 = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				DC8D59592D8073F400C12618 /* Preview Assets.xcassets */,
-				DC5D006A2D917CB6000F244B /* AtividadeAula1.xcodeproj */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -133,28 +113,12 @@
 			mainGroup = DC8D59462D8073F300C12618;
 			productRefGroup = DC8D59502D8073F300C12618 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DC5D006B2D917CB6000F244B /* Products */;
-					ProjectRef = DC5D006A2D917CB6000F244B /* AtividadeAula1.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DC8D594E2D8073F300C12618 /* aula01 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DC5D006F2D917CB6000F244B /* AtividadeAula1.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AtividadeAula1.app;
-			remoteRef = DC5D006E2D917CB6000F244B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DC8D594D2D8073F300C12618 /* Resources */ = {

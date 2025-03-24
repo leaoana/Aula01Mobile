@@ -13,14 +13,14 @@ struct ContentView: View {
         } else {
             idadeCanina = "Digite um número válido!"
             erro = true
-            
         }
     }
 
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            Image("dog_header1")
+                .resizable()
+                .frame(width: 100, height: 90)
                 .foregroundColor(.accentColor)
             
             Text("Calculadora de Idade Canina")

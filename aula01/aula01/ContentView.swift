@@ -13,6 +13,7 @@ struct ContentView: View {
         } else {
             idadeCanina = "Digite um número válido!"
             erro = true
+            
         }
     }
 
